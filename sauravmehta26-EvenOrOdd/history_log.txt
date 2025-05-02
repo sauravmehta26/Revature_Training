@@ -1,0 +1,7 @@
+commit 8687b19c702040828f0f2ab4eb18453a717d7766
+Author: sauravmehta26 <sauravmehta786@gmail.com>
+Date:   Tue Feb 4 00:34:09 2025 +0530
+
+    easy
+
+ 1 file changed, 4 insertions(+), 1 deletion(-)

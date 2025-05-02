@@ -1,0 +1,5 @@
+CREATE TABLE post (
+    id SERIAL PRIMARY KEY,
+    post VARCHAR(255) NOT NULL,
+    user_fk INT REFERENCES site_user(id) ON DELETE CASCADE
+);

@@ -1,0 +1,9 @@
+2025-03-06 04:18:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE [*]user;"; expected "identifier"; SQL statement:
+DROP TABLE user; [42001-214]
+2025-03-06 04:19:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SITE_USER" already exists; SQL statement:
+CREATE TABLE site_user (id SERIAL PRIMARY KEY, firstname varchar(100)) [42101-214]
+2025-03-06 04:19:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE [*]user;"; expected "identifier"; SQL statement:
+DROP TABLE user; [42001-214]

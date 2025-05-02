@@ -1,0 +1,150 @@
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set; SQL statement:
+INSERT INTO author (name) VALUES (?) [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:207)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:159)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at Application.DAO.AuthorDAO.insertAuthor(AuthorDAO.java:60)
+	at LibraryAppTest.AuthorDAO_insertAuthorCheckWithGetAllTest(LibraryAppTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:530)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:758)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:453)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+2025-03-16 07:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:06:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:06:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:06:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:06:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:06:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:06:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:06:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:07:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:07:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:07:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:07:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:07:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:07:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:07:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
+2025-03-16 07:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]change me"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+change me [42001-214]
